@@ -48,3 +48,14 @@
 [前言](./eBook/preface.md)
 
 想读书的人，不会找不到 [目录](eBook/directory.md) :)
+
+## 制作 EPUB
+
+您需要先安装好 pandoc
+
+```
+cd eBook
+chmod +x pandoc-make.sh
+./pandoc-make.sh
+ll Go入门指南.epub
+```
